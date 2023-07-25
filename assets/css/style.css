@@ -1,0 +1,62 @@
+:root {
+    --darkest: rgb(25, 41, 57);
+    --lighter: rgb(93, 219, 155);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: var(--lighter);
+    padding-bottom: 10px;
+    box-shadow: 0 1px 15px var(--darkest);
+    overflow: hidden;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 150px;
+}
+
+.contact-nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-div, .nav-div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.contact-div > a {
+    text-decoration: none;
+    color: var(--darkest);
+    font-weight: bold;
+}
+
+.contact-div > p {
+    margin: 0px 5px 10px 10px;
+    color: var(--darkest);
+    font-weight: bold;
+}
+
+.nav-div > a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: var(--darkest);
+    font-weight: bold;
+}
+
+.main-img {
+    width: 100vw;
+    margin-top: 3px;
+}
